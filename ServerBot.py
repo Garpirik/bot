@@ -11,7 +11,7 @@ import time
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 greet_kb = ReplyKeyboardMarkup()
-count = 5
+
 
 @dp.message_handler(commands=['start'])
 async def process_start_command(message: types.Message):
